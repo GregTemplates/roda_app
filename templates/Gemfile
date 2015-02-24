@@ -1,0 +1,17 @@
+source "https://rubygems.org"
+
+group :test do
+  gem "matest"
+end
+
+group :development do
+  gem "pry"
+  gem "capistrano"
+  gem "rake"
+end
+
+gem "roda"
+gem "unicorn"
+gem "tilt"
+gem "haml"
+gem "dotenv"
