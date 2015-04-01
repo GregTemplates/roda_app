@@ -1,6 +1,8 @@
 require "roda"
 require "dotenv"
 
+require "./models"
+
 Dotenv.load
 
 class <%= app_class_name %> < Roda
