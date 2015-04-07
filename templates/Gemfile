@@ -10,8 +10,11 @@ group :development do
   gem "rake"
 end
 
+
+gem "thin"
+# gem "unicorn"
+
 gem "roda"
-gem "unicorn"
 gem "tilt"
 gem "haml"
 gem "dotenv"
