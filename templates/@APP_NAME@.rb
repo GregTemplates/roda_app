@@ -13,7 +13,7 @@ class <%= app_class_name %> < Roda
   plugin :assets
   plugin :multi_route
 
-  use Rack::Session::Cookie, key: "test", secret: ENV["RACK_COOKIE_SECRET"]
+  use Rack::Session::Cookie, key: ENV["RACK_COOKIE_KEY"], secret: ENV["RACK_COOKIE_SECRET"]
  
   Dir['./routes/*.rb'].each{|f| require f}
 end
