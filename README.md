@@ -12,4 +12,4 @@ Now you can start creating apps
 
     $ greg my_app --template=roda_app
 
-For more information on thr Greg generator, check out [Greg's repo](https://github.com/GregTemplates/greg)
+For more information on the Greg generator, check out [Greg's repo](https://github.com/GregTemplates/greg)
